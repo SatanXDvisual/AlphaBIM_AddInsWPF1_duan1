@@ -30,7 +30,7 @@
         <DockPanel DockPanel.Dock="Bottom">
             <Button DockPanel.Dock="Right"
                     VerticalAlignment="Bottom"
-                    Margin="0,0,10,2"
+                    Margin="0,0,10,10"
                     Content="CANCEL"
                     Width="100"
                     Click="btnCancel_Click"
@@ -56,7 +56,7 @@
             <Button DockPanel.Dock="Right"
                     HorizontalAlignment="Right"
                     VerticalAlignment="Bottom"
-                    Margin="0,0,10,2"
+                    Margin="0,0,10,10"
                     Content="OK"
                     Width="100"
                     IsDefault="True"

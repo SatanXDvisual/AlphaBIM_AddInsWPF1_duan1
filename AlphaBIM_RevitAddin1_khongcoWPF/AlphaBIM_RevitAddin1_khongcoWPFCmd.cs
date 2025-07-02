@@ -7,7 +7,6 @@ using Autodesk.Revit.UI;
 using System;
 using System.IO;
 using System.Reflection;
-using System.Windows;
 using Application = Autodesk.Revit.ApplicationServices.Application;
 
 #endregion
@@ -15,7 +14,7 @@ using Application = Autodesk.Revit.ApplicationServices.Application;
 namespace AlphaBIM
 {
     [Transaction(TransactionMode.Manual)]
-    public class AlphaBIM_AddInsWPF1_duan1Cmd : IExternalCommand
+    public class AlphaBIM_RevitAddin1_khongcoWPFCmd : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData,
             ref string message, ElementSet elements)
@@ -30,27 +29,12 @@ namespace AlphaBIM
             string dllFolder = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
             AssemblyLoader.LoadAllRibbonAssemblies(dllFolder);
 
+            
 
             // code here
 
-            string showbang = "Hello, AlphaBIM_AddInsWPF1_duan1!";
-            MessageBox.Show(showbang, "AlphaBIM_AddInsWPF1_duan1", MessageBoxButton.OK, MessageBoxImage.Information);
-
-            Loaicho conso1 = new Loaicho();
-
-            using (TransactionGroup tranGroup = new TransactionGroup(doc))
-            {
-                tranGroup.Start("AlphaBIM_AddInsWPF1_duan1TransGr");
-
-                AlphaBIM_AddInsWPF1_duan1ViewModel viewModel = new AlphaBIM_AddInsWPF1_duan1ViewModel(uidoc);
-                AlphaBIM_AddInsWPF1_duan1Window window = new AlphaBIM_AddInsWPF1_duan1Window(viewModel);
-                if (window.ShowDialog() == false) return Result.Cancelled;
-
-                tranGroup.Assimilate();
-            }
 
             return Result.Succeeded;
-
         }
     }
 }
