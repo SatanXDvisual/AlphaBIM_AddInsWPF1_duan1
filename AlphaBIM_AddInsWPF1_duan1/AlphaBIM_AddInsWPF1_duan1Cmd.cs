@@ -32,6 +32,7 @@ namespace AlphaBIM
 
             // code here
             // up thu len git
+            //up thu lan nua
 
             using (TransactionGroup tranGroup = new TransactionGroup(doc))
             {
