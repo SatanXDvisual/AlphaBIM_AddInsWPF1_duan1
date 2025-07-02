@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Windows;
+using System.Windows.Forms;
 using System.Windows.Input;
+using System.Xml.Linq;
 using KeyEventArgs = System.Windows.Input.KeyEventArgs;
 
 namespace AlphaBIM
