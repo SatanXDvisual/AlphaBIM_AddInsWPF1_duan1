@@ -29,7 +29,7 @@ namespace AlphaBIM
             string dllFolder = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
             AssemblyLoader.LoadAllRibbonAssemblies(dllFolder);
 
-            
+
 
             // code here
 

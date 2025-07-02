@@ -72,7 +72,7 @@
     <Compile Include="AlphaBIM_AddInsWPF1_duan1Window.xaml.cs">
       <DependentUpon>AlphaBIM_AddInsWPF1_duan1Window.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Loaicho.cs" />
+    <Compile Include="Chonnhieutuonglaythetich.cs" />
     <Compile Include="Lib\AssemblyLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AlphaBIM_AddInsWPF1_duan1Cmd.cs" />
