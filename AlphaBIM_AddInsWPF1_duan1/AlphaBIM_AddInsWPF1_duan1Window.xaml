@@ -20,7 +20,7 @@
 
     <Window.Resources>
         <ResourceDictionary>
-                   <Style TargetType="{x:Type Button}"
+            <Style TargetType="{x:Type Button}"
                    />
         </ResourceDictionary>
     </Window.Resources>
@@ -90,6 +90,7 @@
                 <ColumnDefinition />
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
+            <Button Content="Chontuong" HorizontalAlignment="Left" Margin="33,27,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click"/>
         </Grid>
     </DockPanel>
 </Window>

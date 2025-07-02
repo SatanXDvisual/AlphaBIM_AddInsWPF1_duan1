@@ -38,6 +38,11 @@ namespace AlphaBIM
 
         }
 
+        internal void Chonnhieutuonglaythetich()
+        {
+            throw new NotImplementedException();
+        }
+
         #region public property
 
         public UIDocument UiDoc;
@@ -53,6 +58,10 @@ namespace AlphaBIM
 
         // Các method khác viết ở dưới đây | Other methods written below
 
+        public void tranferParameter()
+        {
+
+        }
 
     }
 }

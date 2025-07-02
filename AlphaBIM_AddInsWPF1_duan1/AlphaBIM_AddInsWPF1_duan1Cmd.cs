@@ -32,12 +32,7 @@ namespace AlphaBIM
 
 
             // code here
-
-            Chonnhieutuonglaythetich chonnhieu1tuonglaythetich = new Chonnhieutuonglaythetich();
-            string showbang = chonnhieu1tuonglaythetich.Execute(commandData, ref message, elements).ToString();
-            MessageBox.Show(showbang, "AlphaBIM_AddInsWPF1_duan1", MessageBoxButton.OK, MessageBoxImage.Information);
-
-
+            
 
             using (TransactionGroup tranGroup = new TransactionGroup(doc))
             {

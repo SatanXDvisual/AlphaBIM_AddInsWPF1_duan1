@@ -42,6 +42,8 @@ namespace AlphaBIM
         {
             DialogResult = true;
             Close();
+
+           
         }
 
 
@@ -97,7 +99,10 @@ namespace AlphaBIM
             }
         }
 
-        #endregion Copy Title bar
-
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            _viewModel.Chonnhieutuonglaythetich();
+        }
+        #endregion
     }
 }

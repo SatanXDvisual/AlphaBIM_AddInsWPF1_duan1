@@ -47,6 +47,16 @@ namespace AlphaBIM
             return Result.Succeeded;
         }
 
+        internal object Execute(object commandData, ref object message, object elements)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal object Execute(Chonnhieutuonglaythetich chonnhieu1tuonglaythetich, ref string message, object value)
+        {
+            throw new NotImplementedException();
+        }
+
         private class WallSelectionFilter : ISelectionFilter
         {
             public bool AllowElement(Element elem)
