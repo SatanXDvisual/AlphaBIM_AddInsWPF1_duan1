@@ -37,15 +37,6 @@
     <Reference Include="ControlzEx">
       <HintPath>D:\Quang\Visual dynamo, Revit API\Revit API\Cac phan mem file lien quan\Alpha BIM_Revit API Training - Source Code_15 Lessons\dllReference\ControlzEx.dll</HintPath>
     </Reference>
-    <Reference Include="MahApps.Metro.ALB">
-      <HintPath>D:\Quang\Visual dynamo, Revit API\Revit API\Cac phan mem file lien quan\Alpha BIM_Revit API Training - Source Code_15 Lessons\dllReference\MahApps.Metro.ALB.dll</HintPath>
-    </Reference>
-    <Reference Include="MaterialDesignColors.ALB">
-      <HintPath>D:\Quang\Visual dynamo, Revit API\Revit API\Cac phan mem file lien quan\Alpha BIM_Revit API Training - Source Code_15 Lessons\dllReference\MaterialDesignColors.ALB.dll</HintPath>
-    </Reference>
-    <Reference Include="MaterialDesignThemes.Wpf.ALB">
-      <HintPath>D:\Quang\Visual dynamo, Revit API\Revit API\Cac phan mem file lien quan\Alpha BIM_Revit API Training - Source Code_15 Lessons\dllReference\MaterialDesignThemes.Wpf.ALB.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
